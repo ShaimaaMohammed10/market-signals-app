@@ -1,0 +1,23 @@
+{
+  "model_name": "Random Forest (tuned), trained on all rows",
+  "trained_until": "2017-08-01",
+  "forecast_month": "2017-10-01",
+  "interval_level": 0.9,
+  "size_cut": 10000,
+  "log_ratio_quantiles": {
+    "large": [
+      -0.11953739105140179,
+      0.10993122483337621
+    ],
+    "small": [
+      -0.5193915558517875,
+      0.4248503972879147
+    ]
+  },
+  "silhouette": {
+    "2": 0.6057342691960921,
+    "3": 0.699580429246959,
+    "4": 0.6468904219211962
+  },
+  "k": 3
+}

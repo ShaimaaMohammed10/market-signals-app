@@ -1,0 +1,8 @@
+Model,MAE,RMSE,R2
+Random Forest (tuned),3659.2434,5199.1827,0.9929
+Ridge,3698.5898,5360.4209,0.9924
+Baseline: avg last 3 months,3733.3374,5197.8159,0.9929
+Random Forest,3768.5524,5334.5029,0.9925
+Baseline: last month,3816.1921,5584.1965,0.9918
+Linear Regression,4109.0426,5655.358,0.9916
+Hist Gradient Boosting,4447.5542,6865.5891,0.9876

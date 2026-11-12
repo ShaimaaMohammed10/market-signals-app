@@ -1,0 +1,3 @@
+group,n_calibration,n_test,nominal,actual_coverage,mean_relative_width
+large,60,55,0.9,0.891,0.229
+small,84,54,0.9,0.426,0.934

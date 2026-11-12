@@ -1,0 +1,25 @@
+category,avg_monthly_sales,cv_sales,avg_profit_ratio,avg_late_rate,avg_discount,months,segment,size_group
+Fishing,209783.4555,0.0457,0.1212,0.5493,0.1017,33,Large & stable,large
+Cleats,134083.151,0.0493,0.1244,0.5497,0.1016,33,Large & stable,large
+Camping & Hiking,124664.4203,0.0449,0.1163,0.5455,0.1017,33,Large & stable,large
+Cardio Equipment,111771.0254,0.0807,0.1187,0.5451,0.1016,33,Large & stable,large
+Women's Apparel,95269.697,0.0546,0.1221,0.5454,0.1017,33,Large & stable,large
+Water Sports,94207.4223,0.0631,0.1164,0.5486,0.1017,33,Large & stable,large
+Men's Footwear,87502.9692,0.0501,0.1202,0.5446,0.1017,33,Large & stable,large
+Indoor/Outdoor Games,87442.281,0.0605,0.1241,0.5474,0.1015,33,Large & stable,large
+Shop By Sport,39652.1906,0.0661,0.1121,0.5514,0.1014,33,Large & stable,large
+Electronics,13251.2373,0.1365,0.1239,0.5602,0.102,28,Mid-size,large
+Girls' Apparel,5418.0786,0.1632,0.1175,0.5545,0.1015,28,Mid-size,small
+Accessories,4773.9825,0.1446,0.1329,0.5699,0.1037,28,Mid-size,small
+Golf Gloves,3536.224,0.8647,0.1281,0.5616,0.1022,33,Small & volatile,small
+Golf Shoes,3272.6667,0.8542,0.1202,0.5697,0.1047,33,Small & volatile,small
+Baseball & Softball,2850.2167,0.2991,0.1456,0.5562,0.1022,33,Mid-size,small
+Golf Balls,2753.5057,0.2091,0.1196,0.5484,0.1007,28,Mid-size,small
+Boxing & MMA,2581.9822,0.867,0.129,0.5643,0.1032,33,Small & volatile,small
+Trade-In,2082.4782,0.4946,0.1309,0.5659,0.1033,33,Mid-size,small
+Hunting & Shooting,1722.6794,0.9597,0.0788,0.5798,0.1006,33,Small & volatile,small
+Hockey,1667.6114,0.8617,0.1344,0.5312,0.1012,29,Small & volatile,small
+Tennis & Racquet,1592.3247,0.2845,0.1356,0.5569,0.1024,28,Mid-size,small
+Lacrosse,1195.9027,0.929,0.1443,0.6006,0.1005,33,Small & volatile,small
+Fitness Accessories,1165.568,0.605,0.1472,0.5649,0.1042,29,Small & volatile,small
+Golf Apparel,1059.6894,1.0338,0.0897,0.5316,0.0975,33,Small & volatile,small

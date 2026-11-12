@@ -1,0 +1,120 @@
+{
+  "data": {
+    "rows_used": 759,
+    "categories_used": 24,
+    "period": "2015-01 -> 2017-09",
+    "excluded": "Logs rows (no sales), months after 2017-09 (partial), categories with < 24 months"
+  },
+  "sales_regression": {
+    "target": "next month's dc_total_sales",
+    "best_ml_model": "Ridge",
+    "saved_model": "outputs/best_sales_model.joblib",
+    "table": [
+      {
+        "Model": "Ridge",
+        "MAE": 3698.5898,
+        "RMSE": 5360.4209,
+        "R2": 0.9924
+      },
+      {
+        "Model": "Baseline: avg last 3 months",
+        "MAE": 3733.3374,
+        "RMSE": 5197.8159,
+        "R2": 0.9929
+      },
+      {
+        "Model": "Random Forest",
+        "MAE": 3768.5524,
+        "RMSE": 5334.5029,
+        "R2": 0.9925
+      },
+      {
+        "Model": "Baseline: last month",
+        "MAE": 3816.1921,
+        "RMSE": 5584.1965,
+        "R2": 0.9918
+      },
+      {
+        "Model": "Linear Regression",
+        "MAE": 4109.0426,
+        "RMSE": 5655.358,
+        "R2": 0.9916
+      },
+      {
+        "Model": "Hist Gradient Boosting",
+        "MAE": 4447.5542,
+        "RMSE": 6865.5891,
+        "R2": 0.9876
+      }
+    ]
+  },
+  "late_rate_regression": {
+    "target": "next month's dc_late_rate",
+    "best_ml_model": "Random Forest",
+    "table": [
+      {
+        "Model": "Random Forest",
+        "MAE": 0.0574,
+        "RMSE": 0.0853,
+        "R2": -0.0275
+      },
+      {
+        "Model": "Ridge",
+        "MAE": 0.0584,
+        "RMSE": 0.0858,
+        "R2": -0.0399
+      },
+      {
+        "Model": "Linear Regression",
+        "MAE": 0.0608,
+        "RMSE": 0.0883,
+        "R2": -0.1006
+      },
+      {
+        "Model": "Hist Gradient Boosting",
+        "MAE": 0.0634,
+        "RMSE": 0.0964,
+        "R2": -0.3111
+      },
+      {
+        "Model": "Baseline: last month",
+        "MAE": 0.0736,
+        "RMSE": 0.114,
+        "R2": -0.8359
+      }
+    ]
+  },
+  "prediction_intervals": {
+    "level": 0.9,
+    "coverage_on_test": [
+      {
+        "group": "large",
+        "n_test": 55,
+        "nominal": 0.9,
+        "actual_coverage": 0.891,
+        "mean_relative_width": 0.229
+      },
+      {
+        "group": "small",
+        "n_test": 54,
+        "nominal": 0.9,
+        "actual_coverage": 0.444,
+        "mean_relative_width": 0.934
+      }
+    ],
+    "note": "Reliable for large categories only (avg monthly sales >= 10,000)"
+  },
+  "segments": {
+    "silhouette": {
+      "2": 0.606,
+      "3": 0.7,
+      "4": 0.647
+    },
+    "counts": {
+      "Large & stable": 9,
+      "Small & volatile": 8,
+      "Mid-size": 7
+    }
+  },
+  "classification": "Removed: labels are artifacts of the outer join / fillna(0) (see section 9)."
+}
