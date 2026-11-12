@@ -1,0 +1,7 @@
+# Needed only to run the notebook / prepare_app_assets.py (the Streamlit app itself uses requirements.txt)
+pandas
+numpy
+matplotlib
+scikit-learn
+joblib
+streamlit
